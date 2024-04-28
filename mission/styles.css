@@ -1,0 +1,36 @@
+h1{
+    text-align: center; letter-spacing: 2px;
+}
+
+h2{
+    color: #006EB6; text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-bottom: 0.5px solid black;
+}
+
+.content{
+    padding: 110px;
+    border: 1px solid black;
+    
+    
+}
+
+img{
+    width: 150px;
+}
+footer{
+    text-align: center;
+    padding-top: 15px;
+}
+
+main{
+    line-height: 1.5;
+    margin-top: 35px;
+}
+li{
+    margin: 10px;
+}
+body{
+    padding: 600px;
+}
