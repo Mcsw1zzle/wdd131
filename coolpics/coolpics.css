@@ -78,9 +78,9 @@ footer p{
     margin-left: 15%;
 }
 
-/* .hide {
+.hide {
     display: none;
-} */
+}
 
 .menu-button {
     display: block;
@@ -100,7 +100,7 @@ footer p{
     place-items: center;
 }
 
-.viewer img {
+#bigboy {
     margin-bottom: 200px;
     max-height: 100%;
     width: 400px;
@@ -116,7 +116,7 @@ footer p{
     .gallery {
         grid-template-columns: 1fr 1fr;
     }
-    .viewer img {
+    #bigboy {
         width: 600px;
         height: 500px;
     }
@@ -137,7 +137,10 @@ footer p{
         display: inline;
         padding: 3rem;
     }
-    .viewer img {
+    .menu {
+        display: block;
+    }
+    #bigboy {
         width: 800px;
         height: 600px;
         margin-top: 20px;
