@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b2f33;
+}
+#navbar img {
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#navbar a {
+    padding: 20px;
+    font-size: 24px;
+    color: #cdc5b4;
+}
+#firstphoto {
+    position: relative;
+    display: inline-block;
+}
+
+#firstphoto img {
+    width: 1889px;
+    height: 500px
+}
+
+#overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+#secondphoto {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#secondphoto h1 {
+    font-size: 36px;
+    flex-shrink: 0;
+    width: 300px;
+    margin-left: 80px;
+    text-align: center;
+
+}
+
+#secondphoto p {
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+    width: 40%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #555;
+    z-index: 1;
+    font-size: 19px;
+}
+
+#secondphoto img {
+    width: 1400px;
+    height: 400px;
+    margin-left: 110px;
+    z-index: 0;
+    margin-top: -5px;
+}
+#bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+
+}
+
+#bottom .icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1500px;
+    margin-bottom: 20px;
+}
+
+#bottom .icons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+#bottom .icons img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+
+#bottom .icons h2 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+#bottom a {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+#bottom a:hover {
+    background-color: #555;
+}
+
+a, h1, h2 {
+    font-family: "Baskervville SC", Helvetica, sans-serif;
+}
+#overlay-text {
+    font-family: "Baskervville SC", Helvetica, sans-serif;
+}
+#secondphoto p {
+    font-family: "PT Serif", Helvetica, sans-serif;
+}

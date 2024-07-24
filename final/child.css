@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b2f33;
+}
+#navbar img {
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#navbar a {
+    padding: 20px;
+    font-size: 24px;
+    color: #cdc5b4;
+}
+#search img {
+    height: 28px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 3px;
+    width: 8%;
+}
+
+#search input {
+    height: 30px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 50%;
+    
+}
+
+#search {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+    border-bottom: 2.5px solid lightgray;
+    padding-top: 20px;
+}
+#trailinfo {
+    padding: 20px;
+    background-color: #f0f0f0;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#trailinfo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#trailinfo .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#trailinfo .details .left {
+    display: flex;
+    flex-direction: column;
+}
+
+#trailinfo .details .left p {
+    margin-bottom: 5px;
+}
+
+#trailinfo .details .right {
+    font-size: 20px;
+    color: #555;
+    margin-right: 100px;
+    width: 20px;
+}
+
+.trail-card {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.report-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.report-btn:hover {
+    background-color: #ff1a1a;
+}
+
+h1, a {
+    font-family: "Baskervville SC", Helvetica, sans-serif;
+}
+p {
+    font-family: "PT Serif", Helvetica, sans-serif;
+}
